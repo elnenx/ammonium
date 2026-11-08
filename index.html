@@ -198,13 +198,13 @@
     </header>
 
     <!-- ==================== HERO SECTION (100% REPLICA OF SCREENSHOT) ==================== -->
-    <section id="hero" class="hero-sky-gradient pt-32 md:pt-40 flex flex-col justify-between relative overflow-hidden">
+    <section id="hero" class="hero-sky-gradient min-h-[100dvh] pt-28 md:pt-36 flex flex-col justify-between relative overflow-hidden">
         
         <!-- Top & Center Hero Content -->
         <div class="max-w-3xl mx-auto px-5 text-center z-10 flex flex-col items-center">
             
             <!-- Trust Badge Pill -->
-            <div data-aos="fade-down" class="inline-flex items-center gap-2.5 bg-white/80 backdrop-blur-md border border-white/90 rounded-full py-2 px-4 shadow-md mb-8 md:mb-10">
+            <div data-aos="fade-down" class="inline-flex items-center gap-2.5 bg-white/80 backdrop-blur-md border border-white/90 rounded-full py-2 px-4 shadow-md mb-6 md:mb-8">
                 <span class="w-6 h-6 rounded-full bg-brand-teal text-white flex items-center justify-center text-xs shadow-sm">
                     <i class="fa-solid fa-check"></i>
                 </span>
@@ -214,7 +214,7 @@
             </div>
 
             <!-- Main Headline matching the exact extended typography -->
-            <h1 data-aos="fade-down" data-aos-delay="100" class="text-[2.8rem] sm:text-6xl md:text-[4.5rem] font-bold text-brand-navy mb-6 select-none leading-tight font-sans">
+            <h1 data-aos="fade-down" data-aos-delay="100" class="text-[2.6rem] sm:text-6xl md:text-[4.5rem] font-bold text-brand-navy mb-4 md:mb-6 select-none leading-tight font-sans">
                 <span class="block mb-2 md:mb-4">واجهــــات تصنــــع</span>
                 <span class="block">
                     <span class="text-brand-teal">حضــــور</span>
@@ -223,24 +223,24 @@
             </h1>
 
             <!-- Subtitle Paragraph -->
-            <p data-aos="fade-down" data-aos-delay="200" class="text-[#3e5463] text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-md md:max-w-xl mx-auto mb-9 px-2">
+            <p data-aos="fade-down" data-aos-delay="200" class="text-[#3e5463] text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-md md:max-w-xl mx-auto mb-7 md:mb-9 px-2">
                 نصمم ونصنع أبواب ونوافذ وواجهات الألمنيوم بمعايير عالية تمنح منزلك طابعاً معمارياً استثنائياً.
             </p>
 
             <!-- Stacked Pill Action Buttons -->
-            <div data-aos="fade-up" data-aos-delay="300" class="flex flex-col items-center gap-4 w-full max-w-xs sm:max-w-sm mx-auto mb-10 md:mb-14">
+            <div data-aos="fade-up" data-aos-delay="300" class="flex flex-col items-center gap-4 w-full max-w-xs sm:max-w-sm mx-auto mb-4 md:mb-10">
                 <!-- Primary Dark Navy CTA -->
-                <a 
-                    href="#book-inspection" 
+                <button 
+                    onclick="openCallModal()" 
                     class="w-64 sm:w-72 py-4 px-7 rounded-full bg-brand-navy hover:bg-[#0d2f45] text-white font-semibold text-base sm:text-lg shadow-xl shadow-brand-navy/20 flex items-center justify-center gap-3 transition-all duration-300 transform hover:-translate-y-0.5"
                 >
                     <span>احجز معاينة مجانية</span>
                     <i class="fa-solid fa-arrow-left text-sm transition-transform group-hover:-translate-x-1"></i>
-                </a>
+                </button>
 
                 <!-- Secondary White CTA -->
                 <a 
-                    href="#portfolio" 
+                    href="#our-story" 
                     class="w-52 sm:w-60 py-3.5 px-6 rounded-full bg-white hover:bg-slate-50 text-brand-navy font-semibold text-base sm:text-lg shadow-lg shadow-slate-900/5 border border-white flex items-center justify-center gap-3 transition-all duration-300 transform hover:-translate-y-0.5"
                 >
                     <span>شاهد أعمالنا</span>
@@ -251,11 +251,11 @@
         </div>
 
         <!-- Bottom Architectural Villa Panoramic Glass Image -->
-        <div data-aos="fade-up" data-aos-delay="400" class="w-full mt-4 sm:mt-8 flex items-end justify-center relative z-10">
+        <div data-aos="fade-up" data-aos-delay="400" class="w-full mt-auto flex items-end justify-center relative z-10">
             <img 
                 src="https://res.cloudinary.com/dyhlzplzb/image/upload/v1794170888/1000195768-removebg-preview_udd5lg.png" 
                 alt="واجهات ألمنيوم حديثة لفيلا فاخرة" 
-                class="w-full h-auto object-cover object-bottom drop-shadow-2xl"
+                class="w-full h-auto max-h-[35vh] md:max-h-[45vh] lg:max-h-[55vh] object-cover object-bottom drop-shadow-2xl"
             >
         </div>
 
